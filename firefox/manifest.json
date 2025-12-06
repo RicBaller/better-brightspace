@@ -14,11 +14,21 @@
         "https://lms.hsleiden.nl/*",
         "https://brightspace.universiteitleiden.nl/*",
         "https://brightspace.hhs.nl/*",
-        "https://brightspace.rug.nl/*",
-        "https://brightspace.tudelft.nl/*"
+        "https://brightspace.tudelft.nl/*",
+        "https://brightspace.rug.nl/*"
       ],
-      "js": ["BetterBrightspace.js"]
+      "js": ["BetterBrightspace.js"],
+      "run_at": "document_idle"
     }
-  ]
+  ],
+  "permissions": [],
+  "host_permissions": [
+    "https://lms.hsleiden.nl/*",
+    "https://brightspace.universiteitleiden.nl/*",
+    "https://brightspace.tudelft.nl/*",
+    "https://brightspace.rug.nl/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
 }
-
