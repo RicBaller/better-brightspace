@@ -17,6 +17,8 @@ This approach adheres to the principle of least privilege, granting access only 
 2. Load the extension in your browser (e.g., Chrome: go to `chrome://extensions/`, enable Developer mode, and load the unpacked folder).
 3. The extension will automatically activate on the specified Brightspace domains.
 
+Or go to https://chromewebstore.google.com/detail/betterbrightspace/cdmajccagekimfaghijjcafkcldmbkik
+
 ## Supported Domains
 - https://lms.hsleiden.nl/*
 - https://brightspace.universiteitleiden.nl/*
